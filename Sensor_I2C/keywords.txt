@@ -1,0 +1,33 @@
+###########################################
+# Syntax Coloring Map For Sensor_I2C.h
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+I2C	KEYWORD1
+SENSOR	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+scanAllDevices	KEYWORD2
+scanDeviceByOrdinal	KEYWORD2
+numberOfDevices	KEYWORD2
+checkDeviceConnection	KEYWORD2
+flush	KEYWORD2
+
+sensorBegin	KEYWORD2
+showInfo	KEYWORD2
+getName	KEYWORD2
+getId	KEYWORD2
+getBytes	KEYWORD2
+getByte	KEYWORD2
+getWord	KEYWORD2
+sendByte	KEYWORD2
+
+###########################################
+# Constants (LITERAL1)
+###########################################
