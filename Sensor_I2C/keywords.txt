@@ -23,10 +23,10 @@ sensorBegin	KEYWORD2
 showInfo	KEYWORD2
 getName	KEYWORD2
 getId	KEYWORD2
-getBytes	KEYWORD2
-getByte	KEYWORD2
-getWord	KEYWORD2
-sendByte	KEYWORD2
+readBytes	KEYWORD2
+readByte	KEYWORD2
+readWord	KEYWORD2
+writeByte	KEYWORD2
 
 ###########################################
 # Constants (LITERAL1)
