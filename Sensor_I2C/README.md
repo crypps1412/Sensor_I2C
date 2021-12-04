@@ -1,4 +1,4 @@
-# Sensor_I2C
+# Sensor_I2C (Down kèm nếu muốn sử dụng các thư viện cảm biến trong kho)
 ## 1 thư viện Arduino cho các cảm biến có giao tiếp I2C.
 
 Thư viện này được tạo ra nhằm mục đích làm tiền đề cho các thư viện về từng cảm biến cụ thể. Các thư viện cảm biến sẽ tạo lớp là lớp con của lớp `SENSOR`, kế thừa 4 hàm đọc viết I2C cơ bản. Ngoài ra, thư viện còn cung cấp namespace `I2C` chứa những hàm quét địa chỉ cảm biến ngắn gọn.
