@@ -3,7 +3,7 @@
 
 Thư viện này được tạo ra nhằm mục đích làm tiền đề cho các thư viện về từng cảm biến cụ thể. Các thư viện cảm biến sẽ tạo lớp là lớp con của lớp `SENSOR`, kế thừa 4 hàm đọc viết I2C cơ bản. Ngoài ra, thư viện còn cung cấp namespace `I2C` chứa những hàm quét địa chỉ cảm biến ngắn gọn.
 
-Thư viện cung cấp 5 hàm chung cho việc quét địa chỉ cảm biến, sử dụng namespace `I2C`:
+#### Thư viện cung cấp 5 hàm chung cho việc quét địa chỉ cảm biến, sử dụng namespace `I2C`:
 - Quét địa chỉ các cảm biến trên bus I2C, lưu vào mảng `addr[]` truyền vào, trả về số lượng địa chỉ xác định được. `maxDevices` quyết định số cảm biến tối đa muốn quét, quét đủ sẽ kết thúc hàm ngay. Nếu không muốn mảng bị ghi giá trị vào, cho giá trị biến `justNumber` thành **true** (1).
 ```
   uint8_t scanAllDevices(uint8_t addr[], uint8_t maxDevices = 128, bool justNumber = 0);
@@ -29,7 +29,7 @@ Các giá trị trả về có thể là:
   void flush();
 ```
 
-Phần chính của thư viện này nằm ở lớp `SENSOR`. Lớp này lưu địa chỉ cảm biến, địa chỉ thanh ghi ID (hoặc thanh ghi cố định nào đó) của cảm biến, giá trị ID và tên cảm biến do người dùng đặt.
+#### Phần chính của thư viện này nằm ở lớp `SENSOR`. Lớp này lưu địa chỉ cảm biến, địa chỉ thanh ghi ID (hoặc thanh ghi cố định nào đó) của cảm biến, giá trị ID và tên cảm biến do người dùng đặt.
 + Constructor yêu cầu tên cảm biến ở dạng mảng char và địa chỉ thanh ghi ID.
 ```
   SENSOR(const char *deviceName, const uint8_t &idAddr);
