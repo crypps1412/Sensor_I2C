@@ -1,0 +1,28 @@
+###########################################
+# Syntax Coloring Map For Filter.h
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+KalF	KEYWORD1
+ComF	KEYWORD1
+AverF	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+init	KEYWORD2
+restart	KEYWORD2
+update	KEYWORD2
+result	KEYWORD2
+
+setVarX	KEYWORD2
+setVarY	KEYWORD2
+setVarZ	KEYWORD2
+setRate	KEYWORD2
+setSize	KEYWORD2
+###########################################
+# Constants (LITERAL1)
+###########################################
