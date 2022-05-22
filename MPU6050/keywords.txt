@@ -1,0 +1,36 @@
+###########################################
+# Syntax Coloring Map For Filter.h
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+MPU6050	KEYWORD1
+VECTOR_3D	KEYWORD1
+MATRIX_3D	KEYWORD1
+RPY	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+begin	KEYWORD2
+set	KEYWORD2
+get	KEYWORD2
+
+start	KEYWORD2
+calib	KEYWORD2
+readData	KEYWORD2
+reset	KEYWORD2
+procData	KEYWORD2
+
+
+setElement	KEYWORD2
+radian	KEYWORD2
+degree	KEYWORD2
+
+###########################################
+# Constants (LITERAL1)
+###########################################
+
+ADDR_MPU6050	LITERAL1
